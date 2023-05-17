@@ -31,7 +31,7 @@ public class Message {
     @Column(name = "title", length = 225, nullable = false)
     private String title;
 
-    @Column(name = "content", length = 225, nullable = false)
+    @Column(name = "content", length = 225, nullable = false)EditServlet.javaを作成
     private String content;
 
     @Column(name = "created_at", nullable = false)
